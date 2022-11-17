@@ -26,7 +26,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <p class="mx-auto mt-24 w-xl sm:text-xl sm:leading-relaxed">
-                    TEAM MALINDO | 2022
+                    TEAM MALINDO &nbsp; | &nbsp; 2022
                 </p>
             </div>
         </div>
