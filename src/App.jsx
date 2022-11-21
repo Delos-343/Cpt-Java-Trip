@@ -1,12 +1,13 @@
 import React from 'react'
-import { Header, Hero } from './components'
+import { Routes, Route } from 'react-router-dom'
+import { HomePage } from './routes'
 
 function App() {
-
   return (
     <>
-      <Header />
-      <Hero />
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+      </Routes>
     </>
   )
 }
