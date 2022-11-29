@@ -8,7 +8,7 @@ const Login = () => {
     <video autoPlay muted loop className=" object-cover w-full h-full opacity-20">
       <source src="/images/bannervideo.mp4" type="video/mp4" />
     </video>
-    <div className="absolute inset-0 mx-auto max-w-screen-xl px-4 py-30 lg:flex lg:h-screen lg:items-center z-10">
+    <div className="absolute inset-0 mx-auto max-w-screen-xl px-4 py-24 lg:flex h-screen lg:items-center z-10">
       <div className="mx-auto max-w-6xl text-center">
         {/* <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
           CAPTAIN JAVA TRIP
