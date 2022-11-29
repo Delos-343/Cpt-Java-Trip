@@ -1,23 +1,31 @@
 import React from 'react'
+import captainWhiteLogo from '../assets/logo/Logo-White-Rectangular.png'
 
 const Login = () => {
   return (
-<section className="bg-gray-900 text-gray-100">
-  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-    <div className="mx-auto max-w-3xl text-center">
-      <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-        CAPTAIN JAVA TRIP
-      </h1>
+<section className="bg-stone-800 text-gray-100">
+  <div className="w-full h-screen z-0">
+    <video autoPlay muted loop className=" object-cover w-full h-full opacity-20">
+      <source src="/images/bannervideo.mp4" type="video/mp4" />
+    </video>
+    <div className="absolute inset-0 mx-auto max-w-screen-xl px-4 py-30 lg:flex lg:h-screen lg:items-center z-10">
+      <div className="mx-auto max-w-6xl text-center">
+        {/* <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+          CAPTAIN JAVA TRIP
+        </h1> */}
 
-      <p className="mx-auto mt-4 max-w-full sm:text-xl sm:leading-relaxed">
-        Stand to quarters and clear for action, we shall be staying put for the evening.
-      </p>
+        <img src={captainWhiteLogo} alt="Captain Java Trip Logo" className="w-fit" />
 
-      <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <a className="block w-full text-xl bg-blue-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-           href="/home">
-          LOGIN
-        </a>
+        <p className="mx-auto mt-4 max-w-full sm:text-xl sm:leading-relaxed">
+          Stand to quarters and clear for action, we shall be staying put for the evening.
+        </p>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a className="block w-full text-xl bg-yellow-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+            href="/home">
+            LOGIN
+          </a>
+        </div>
       </div>
     </div>
   </div>

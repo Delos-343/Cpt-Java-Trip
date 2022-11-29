@@ -1,11 +1,12 @@
 import React from 'react'
-import { Header, Login } from '../components'
+import { Header, Login, Footer } from '../components'
 
 const LoginPage = () => {
   return (
     <>
         <Header />
         <Login />
+        <Footer />
     </>
   )
 }
