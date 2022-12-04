@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Hero, FeaturedRoutes } from '../components'
+import { Footer, Header, Hero, FeaturedRoutes, HomeStats, HelpSection } from '../components'
 
 const HomePage = () => {
   return (
@@ -7,8 +7,10 @@ const HomePage = () => {
       <Header />
       <Hero />
       <FeaturedRoutes />
-      <hr className='mx-8 mb-10' />
-      <hr className='mx-8 mb-10' />
+      <hr className='mx-8' />
+      <HomeStats />
+      <hr className='mx-8' />
+      <HelpSection />
       <Footer />
     </div>
   )
