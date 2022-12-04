@@ -20,22 +20,27 @@ const Header = () => {
                 </button>
             </div>
             */}
-            <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+            <div className="items-stretch justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                 <ul className="flex flex-col p-4 mt-4 border border-stone-100 rounded-lg bg-stone-50 md:flex-row md:space-x-20 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-stone-800 md:dark:bg-stone-900 dark:border-stone-700">
                     <li>
-                        <a href="/home" className="block py-2 pl-3 pr-4 text-white bg-yellow-700 rounded md:bg-transparent md:text-yellow-700 md:p-0 dark:text-white" aria-current="page">
+                        <a href="/home" className="block text-white bg-yellow-700 rounded md:bg-transparent md:text-yellow-700 md:p-0 dark:text-white" aria-current="page">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="/our-routes" className="block py-2 pl-3 pr-4 text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
+                        <a href="/our-routes" className="block text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
                             Our Routes
                         </a>
                     </li>
                     <li>
-                        <a href="/our-spots" className="block py-2 pl-3 pr-4 text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
+                        <a href="/our-spots" className="block text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
                             Our Spots
                         </a>
+                    </li>
+                    <li>
+                        <button className='text-yellow-600 font-semibold border border-yellow-600 px-3 transition-color hover:bg-yellow-600 hover:text-white hover:border-0'>
+                            LOGOUT
+                        </button>
                     </li>
                     </ul>
             </div>

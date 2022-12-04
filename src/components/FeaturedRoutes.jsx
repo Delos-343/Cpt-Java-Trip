@@ -43,6 +43,9 @@ const FeaturedRoutes = () => {
                     </a>
                 </div>
             </div>
+            <div className='flex'>
+                <a href="/our-routes" className='text-2xl bg-yellow-600 mx-auto mt-5 px-14 py-3 transition-colors hover:bg-yellow-500'>See more routes</a>
+            </div>
         </section>
     )
 }

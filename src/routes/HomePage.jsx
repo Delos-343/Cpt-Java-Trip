@@ -7,6 +7,8 @@ const HomePage = () => {
       <Header />
       <Hero />
       <FeaturedRoutes />
+      <hr className='mx-8 mb-10' />
+      <hr className='mx-8 mb-10' />
       <Footer />
     </div>
   )
