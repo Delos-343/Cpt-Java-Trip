@@ -4,7 +4,6 @@ import { Footer, Header, Hero, FeaturedRoutes, HomeStats, HelpSection } from '..
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <Hero />
       <FeaturedRoutes />
       <hr className='mx-8' />

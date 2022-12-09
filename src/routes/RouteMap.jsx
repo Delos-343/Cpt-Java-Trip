@@ -4,7 +4,6 @@ import { Footer, Header } from '../components'
 const Map = () => {
   return (
     <div>
-      <Header />
       {/* <LeafletMap/> */}
       <Footer />
     </div>

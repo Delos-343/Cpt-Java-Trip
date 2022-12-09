@@ -4,7 +4,6 @@ import { Header, Login, Footer } from '../components'
 const LoginPage = () => {
   return (
     <>
-        <Header />
         <Login />
         <Footer />
     </>

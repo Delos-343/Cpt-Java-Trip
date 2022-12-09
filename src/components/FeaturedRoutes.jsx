@@ -50,7 +50,7 @@ const FeaturedRoutes = () => {
                 </div>
             </div>
             <div className='flex align-middle'>
-                <a href="/our-routes" className='text-2xl text-center bg-yellow-600 mx-auto mt-14 mb-20 px-14 py-3 transition-colors hover:bg-yellow-500'>
+                <a href="/our-routes" className='text-2xl text-center bg-yellow-600 mx-auto my-14 px-14 py-3 transition-colors hover:bg-yellow-500'>
                     See More Routes
                 </a>
             </div>
