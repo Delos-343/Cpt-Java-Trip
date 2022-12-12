@@ -1,11 +1,11 @@
 import React from 'react'
-import { Footer, Header } from '../components'
+import { Header, MapSidebar, LeafletMap } from '../components'
 
 const Map = () => {
   return (
-    <div>
-      {/* <LeafletMap/> */}
-      <Footer />
+    <div className='flex flex-row h-[93vh]'>
+      <MapSidebar/>
+      <LeafletMap/>
     </div>
   )
 }
