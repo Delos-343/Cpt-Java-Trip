@@ -1,10 +1,26 @@
 import React from 'react'
+import { MapContainer, TileLayer } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
+
+const center =[-7.2798189387667795, 112.79663873648443];
 
 const LeafletMap = () => {
   return (
-    <div className="bg-stone-500 text-gray-100 w-full h-full">
-      test
-    </div>
+    <MapContainer 
+    center={center}
+    zoom={15}
+    className="w-full h-full"
+    >
+    
+    <TileLayer
+    url="https://api.maptiler.com/maps/hybrid/256/{z}/{x}/{y}.jpg?key=GgI2ThFcdA3XHtKATVgg"
+    attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+
+    >
+
+    </TileLayer>
+
+    </MapContainer>
   )
 }
 
