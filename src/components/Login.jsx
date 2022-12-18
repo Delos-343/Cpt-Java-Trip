@@ -1,11 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types';
 import captainWhiteLogo from '../assets/logo/Logo-White-Rectangular.png'
 
 async function loginUser(credentials) {
-
   return fetch('http://localhost:5173', {
-    
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -20,8 +17,7 @@ const Login = ({ setToken }) => {
   const handleSubmit = async e => {
     e.preventDefault();
     const token = await loginUser({
-      username,
-      password
+      
     });
     setToken(token);
   }

@@ -1,11 +1,11 @@
 import React from 'react'
 import captainLogo from '../assets/logo/Logo-White-Rectangular.png'
 
-const Header = () => {
+const LoginNav = () => {
   return (
-    <nav className="w-full bg-white border-stone-200 px-2 sm:px-4 py-1 dark:bg-stone-900">
+    <nav className="absolute top-0 left-0 w-full hidden sm:block bg-white border-stone-200 px-2 sm:px-4 py-1 dark:bg-stone-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="/home" className="flex items-center">
+            <a href="/" className="flex items-center">
                 <img src={captainLogo} className="h-6 mr-4 sm:h-6" alt="Our Logo" />
             </a>
             {/*
@@ -36,8 +36,8 @@ const Header = () => {
                     </li>
                     <li>
                         <button className='block text-yellow-600 justify-center align-middle font-semibold border border-yellow-600 px-3 py-1 transition-color active:bg-yellow-600 active:text-white active:border-0'>
-                            <a href="/login" className="text-center">
-                                LOGOUT
+                            <a href="/home" className="text-center">
+                                LOGIN
                             </a>
                         </button>
                     </li>
@@ -49,4 +49,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default LoginNav
