@@ -13,38 +13,38 @@ const FeaturedRoutes = () => {
 
             <div className='w-full flex lg:flex-row flex-col gap-3 drop-shadow-xl'>
                 <div className='relative bg-stone-500 lg:h-[28rem] md:h-[20rem] h-[22rem] w-full '>
-                    <img src="/images/maskeran_gan.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
+                    <img src="/images/jakarta-panorama.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
                     <h3 className='md:text-3xl text-xl font-semibold mt-4 mx-5 mb-1'>
-                        Majestic Route
+                        Jabodetabek Route
                     </h3>
                     <p className='mx-5'>
-                        A short majestic route from Jakarta to Bandung with lots of fun things to do!
+                        A fairly short distanced route that packs with places to visit!
                     </p>
-                    <a href="/our-routes" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
+                    <a href="/our-routes/1" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
                         View Route →
                     </a>
                 </div>
                 <div className='relative bg-stone-500 lg:h-[28rem] md:h-[20rem] h-[22rem] w-full '>
-                    <img src="/images/motoran_gan.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
+                    <img src="/images/borobudur.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
                     <h3 className='md:text-3xl text-xl font-semibold mt-4 mx-5 mb-1'>
-                        Long-Hauler Route
+                        Major Temples Route
                     </h3>
                     <p className='mx-5'>
-                        Feeling like going on a long haul? this 384 Km route is just for you!
+                        Going for a more a trip to the past? let's visit the many temple here in java!
                     </p>
-                    <a href="/our-routes" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
+                    <a href="/our-routes/3" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
                         View Route →
                     </a>
                 </div>
                 <div className='relative bg-stone-500 lg:h-[28rem] md:h-[20rem] h-[22rem] w-full '>
-                    <img src="/images/sunrise.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
+                    <img src="/images/sate.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
                     <h3 className='md:text-3xl text-xl font-semibold mt-4 mx-5 mb-1'>
-                        Scenic Route
+                        Gourmet Route
                     </h3>
                     <p className='mx-5'>
                         Love taking scenic photos? This route will provide you the best photo you can get in java!
                     </p>
-                    <a href="/our-routes" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
+                    <a href="/our-routes/6" className='absolute bottom-0 w-full text-right font-bold transition ease-in-out bg-stone-600 hover:bg-stone-400 py-2 px-5'>
                         View Route →
                     </a>
                 </div>
