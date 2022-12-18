@@ -36,7 +36,7 @@ const Header = () => {
                     </li>
                     <li>
                         <button className='block text-yellow-600 justify-center align-middle font-semibold border border-yellow-600 px-3 py-1 transition-color active:bg-yellow-600 active:text-white active:border-0'>
-                            <a href="/login" className="text-center">
+                            <a href="/" className="text-center">
                                 LOGOUT
                             </a>
                         </button>

@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.post("/api/google-login", async (req, res) => {
+app.post("/", async (req, res) => {
     const { token } = req.body;
     const ticket = await client.verifyIdToken({
       idToken: token,

@@ -2,8 +2,8 @@ import React from 'react'
 import captainWhiteLogo from '../assets/logo/Logo-White-Rectangular.png'
 
 async function loginUser(credentials) {
-  return fetch('http://localhost:5173', {
-    method: 'POST',
+  return fetch('http://localhost', {
+    method: 'GET',
     headers: {
       'Content-Type': 'application/json'
     },
