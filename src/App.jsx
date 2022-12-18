@@ -1,14 +1,8 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { LoginPage, HomePage, OurRoute, RouteMap } from './routes'
-import { Login } from './components'
 
 function App() {
-
-  const [token, setToken] = useState()
-
-  if(!token) return <Login setToken={setToken} />
-
   return (
     <>
       <Routes>

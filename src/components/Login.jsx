@@ -1,7 +1,31 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import captainWhiteLogo from '../assets/logo/Logo-White-Rectangular.png'
 
-const Login = () => {
+async function loginUser(credentials) {
+
+  return fetch('http://localhost:5173', {
+    
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(credentials)
+  })
+    .then(data => data.json())
+ }
+
+const Login = ({ setToken }) => {
+
+  const handleSubmit = async e => {
+    e.preventDefault();
+    const token = await loginUser({
+      username,
+      password
+    });
+    setToken(token);
+  }
+
   return (
     <section className="bg-stone-800 text-gray-100">
       <div className="w-full h-screen z-0">
@@ -21,11 +45,10 @@ const Login = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <button type="submit"
-                      className="block w-full text-xl bg-yellow-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              >
+              <a className="block w-full text-xl bg-yellow-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                href="/home">
                 LOGIN
-              </button>
+              </a>
             </div>
           </div>
         </div>
