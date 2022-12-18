@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, MapSidebar, LeafletMap } from '../components'
+import { MapSidebar, LeafletMap } from '../components'
 
 const Map = () => {
   return (

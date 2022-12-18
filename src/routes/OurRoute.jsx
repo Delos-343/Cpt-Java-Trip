@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Hero } from '../components'
+import { Footer, Hero } from '../components'
 
 const OurRoute = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, LoginNav, Login, Footer } from '../components'
+import { LoginNav, Login, Footer } from '../components'
 
 const LoginPage = () => {
   return (
