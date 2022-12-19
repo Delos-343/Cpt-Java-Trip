@@ -3,7 +3,7 @@ import captainLogo from '../assets/logo/Logo-White-Rectangular.png'
 
 const LoginNav = () => {
   return (
-    <nav className="absolute top-0 left-0 z-50 w-full hidden sm:block bg-white border-stone-200 px-2 sm:px-4 py-1 dark:bg-stone-900">
+    <nav className="absolute top-0 left-0 z-50 w-full hidden sm:block px-2 sm:px-4 py-1 bg-stone-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
             <a href="/" className="flex items-center">
                 <img src={captainLogo} className="h-6 mr-4 sm:h-6" alt="Our Logo" />
@@ -18,19 +18,19 @@ const LoginNav = () => {
             </div>
             */}
             <div className="items-stretch justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-                <ul className="flex flex-col p-4 mt-4 border border-stone-100 rounded-lg bg-stone-50 md:flex-row md:space-x-20 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-stone-800 md:dark:bg-stone-900 dark:border-stone-700">
+                <ul className="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-20 md:mt-0 md:text-sm md:font-medium bg-stone-900">
                     <li className="align-middle my-auto">
-                        <a href="/home" className="block text-white bg-yellow-700 rounded md:bg-transparent md:text-yellow-700 md:p-0 dark:text-white" aria-current="page">
+                        <a href="/home" className="block text-gray-200 bg-yellow-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">
                             Home
                         </a>
                     </li>
                     <li className="align-middle my-auto">
-                        <a href="/our-routes" className="block text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
+                        <a href="/our-routes" className="block text-stone-500 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
                             Our Routes
                         </a>
                     </li>
                     <li className="align-middle my-auto">
-                        <a href="/our-spots" className="block text-stone-700 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
+                        <a href="/our-spots" className="block text-stone-500 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-white dark:text-stone-400 dark:hover:bg-stone-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-stone-700">
                             Our Spots
                         </a>
                     </li>
