@@ -10,7 +10,6 @@ const OurRoute = () => {
       <p className='text-stone-800 text-center py-4'>
         Explore the various routes we have curated you can pick for your trip!
       </p>
-      <LeafletMap />
       <AllRoutes />
       <p className='text-stone-800 text-center pt-16 text-2xl mb-20'>
         More routes upcoming in the future.
