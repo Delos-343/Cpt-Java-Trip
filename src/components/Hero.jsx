@@ -28,7 +28,7 @@ const Hero = () => {
               className="w-fit"
             />
 
-            <p className="text-sm md:text-base sm:text-left text-center text-stone-100 mt-4 mb-4 sm:mb-16">
+            <p className="max-w-lg text-sm sm:text-xl sm:text-left text-center text-stone-100 mt-4 mb-4 sm:mb-16 sm:leading-relaxed">
               We are a unique travel agency with a passion for finding memorable
               routes and both internationally-renowned and lesser-known
               archaeological hotspots across Java.
