@@ -35,7 +35,7 @@ const Hero = () => {
             </p>
             <a
               href="/our-routes"
-              className="text-2xl bg-yellow-600 px-14 py-3 mb-10 sm:mb-0 text-stone-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-stone-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              className="text-2xl bg-yellow-700 px-14 py-3 mb-10 sm:mb-0 text-stone-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-stone-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
             >
               EXPLORE NOW
             </a>

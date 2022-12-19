@@ -2,7 +2,7 @@ import React from 'react'
 
 const AllRoutes = () => {
     return (
-        <div className='lg:grid lg:grid-cols-3 flex flex-col gap-3 drop-shadow-xl mx-6 my-4 text-stone-100'>
+        <div className='lg:grid lg:grid-cols-3 flex flex-col gap-3 drop-shadow-xl mx-6 pb-4 pt-16 text-stone-100'>
             <div className='relative bg-stone-500 lg:h-[28rem] md:h-[20rem] h-[22rem] w-full '>
                 <img src="/images/jakarta-panorama.jpg" alt="Route Image" className='object-cover w-full lg:h-72 h-48'/>
                 <h3 className='md:text-3xl text-xl font-semibold mt-4 mx-5 mb-1'>
