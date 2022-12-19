@@ -41,8 +41,7 @@ const Login = ({ setToken }) => {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a className="block w-full text-xl bg-yellow-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                href="/home">
+              <a href="/home" className="block w-full text-xl bg-yellow-600 px-32 py-3 font-normal text-gray-100 hover:bg-transparent hover:text-white hover:border-2 hover:border-gray-100 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
                 LOGIN
               </a>
             </div>
