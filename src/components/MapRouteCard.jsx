@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RouteCard = (props) => {
+const MapRouteCard = (props) => {
   return (
     <div className="bg-stone-500 text-gray-100 w-full h-20 rounded flex overflow-clip mb-2 transition hover:shadow-xl hover:bg-stone-400 hover:-translate-y-0.5 active:translate-y-0.5 active:bg-stone-600">
       <img src="https://loremflickr.com/320/320/Tourist" alt="thumbnail"  />
@@ -12,4 +12,4 @@ const RouteCard = (props) => {
   )
 }
 
-export default RouteCard;
+export default MapRouteCard;

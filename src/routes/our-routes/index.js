@@ -1,0 +1,6 @@
+export { default as Route1 } from './Route1'
+export { default as Route2 } from './Route2'
+export { default as Route3 } from './Route3'
+export { default as Route4 } from './Route4'
+export { default as Route5 } from './Route5'
+export { default as Route6 } from './Route6'

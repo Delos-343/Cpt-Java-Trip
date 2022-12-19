@@ -1,5 +1,5 @@
 import React from 'react'
-import { RouteCard } from '.'
+import { MapRouteCard } from '.'
 
 const MapSidebar = () => {
   return (
@@ -37,16 +37,16 @@ const MapSidebar = () => {
         </table>
       </div>
       <div className='overflow-auto bg-stone-100 h-[28rem] rounded p-2'>
-        <RouteCard SpotName={"Disneyland"} SpotNum={1}/>
-        <RouteCard SpotName={"Ancol"} SpotNum={2}/>
-        <RouteCard SpotName={"Indomie"} SpotNum={3}/>
-        <RouteCard SpotName={"Cipta Bumi Indah"} SpotNum={4}/>
-        <RouteCard SpotName={"AmerikaLand"} SpotNum={5}/>
-        <RouteCard SpotName={"Djarum Factory"} SpotNum={6}/>
-        <RouteCard SpotName={"Banjarmasin"} SpotNum={7}/>
-        <RouteCard SpotName={"Banjar"} SpotNum={8}/>
-        <RouteCard SpotName={"Pelabuhan"} SpotNum={9}/>
-        <RouteCard SpotName={"PT.KAI"} SpotNum={10}/>
+        <MapRouteCard SpotName={"Disneyland"} SpotNum={1}/>
+        <MapRouteCard SpotName={"Ancol"} SpotNum={2}/>
+        <MapRouteCard SpotName={"Indomie"} SpotNum={3}/>
+        <MapRouteCard SpotName={"Cipta Bumi Indah"} SpotNum={4}/>
+        <MapRouteCard SpotName={"AmerikaLand"} SpotNum={5}/>
+        <MapRouteCard SpotName={"Djarum Factory"} SpotNum={6}/>
+        <MapRouteCard SpotName={"Banjarmasin"} SpotNum={7}/>
+        <MapRouteCard SpotName={"Banjar"} SpotNum={8}/>
+        <MapRouteCard SpotName={"Pelabuhan"} SpotNum={9}/>
+        <MapRouteCard SpotName={"PT.KAI"} SpotNum={10}/>
       </div>
     </aside>
   )
